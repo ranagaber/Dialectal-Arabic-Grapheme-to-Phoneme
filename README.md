@@ -1,0 +1,50 @@
+# Dialectal Arabic Grapheme-to-Phoneme
+
+A **country-level Dialectal Arabic Grapheme-to-Phoneme (G2P) model** that converts written dialectal Arabic text (graphemes) into its corresponding phoneme representation.
+
+The model supports multiple Arabic dialects at the **country level** and was trained on the **CAPHI phonological lexicon**.
+
+## API
+
+The model is served through a **FastAPI** application.
+
+Start the API with:
+
+```bash
+uv run uvicorn g2p.main:app --reload --app-dir src
+```
+
+Once the API is running, you can send requests using Python's `requests` library:
+
+```python
+import requests
+
+response = requests.post(
+    "http://127.0.0.1:8000/get_phoneme",
+    json={
+        "country_id": "EG",
+        "text": "ازيك عامل ايه؟"
+    }
+)
+
+print(response.json())
+```
+
+The API takes a country identifier and dialectal Arabic text, and returns the corresponding phoneme representation.
+
+## Dialect Level
+
+The model operates at the **country level**, supporting country-specific varieties of Dialectal Arabic.
+
+## Project Structure
+
+```text
+g2p/
+├── src/
+│   └── g2p/
+│       ├── __init__.py
+│       ├── main.py
+│       └── app.py
+├── pyproject.toml
+└── uv.lock
+```

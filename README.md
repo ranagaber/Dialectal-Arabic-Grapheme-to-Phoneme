@@ -44,3 +44,9 @@ g2p/
 ├── pyproject.toml
 └── uv.lock
 ```
+## Evaluation
+| Metric | Score |
+|---|---:|
+| **Word Accuracy** | 0.443 |
+| **Edit Distance** | 1.3533 |
+| **PER (Phoneme Error Rate)** | 0.1635 |

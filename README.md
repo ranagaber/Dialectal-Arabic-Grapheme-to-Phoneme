@@ -22,7 +22,7 @@ import requests
 response = requests.post(
     "http://127.0.0.1:8000/get_phoneme",
     json={
-        "country_id": "EG",
+        "country_id": "Egypt",
         "text": "ازيك عامل ايه؟"
     }
 )

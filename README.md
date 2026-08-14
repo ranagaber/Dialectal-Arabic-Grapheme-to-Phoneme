@@ -32,10 +32,6 @@ print(response.json())
 
 The API takes a country identifier and dialectal Arabic text, and returns the corresponding phoneme representation.
 
-## Dialect Level
-
-The model operates at the **country level**, supporting country-specific varieties of Dialectal Arabic.
-
 ## Project Structure
 
 ```text

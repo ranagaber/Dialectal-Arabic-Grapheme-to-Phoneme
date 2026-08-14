@@ -2,7 +2,7 @@
 
 A **country-level Dialectal Arabic Grapheme-to-Phoneme (G2P) model** that converts written dialectal Arabic text (graphemes) into its corresponding phoneme representation.
 
-The model supports 15 country-level Arabic dialects: Egypt, Jordan, Syria, Lebanon, Palestine, Saudi Arabia, Qatar, Oman, Kuwait, Iraq, Yemen, Algeria, Libya, Tunisia, and Morocco. It was trained on the CAPHI phonological lexicon.
+The model supports 15 country-level Arabic dialects: Egypt, Jordan, Syria, Lebanon, Palestine, Saudi Arabia, Qatar, Oman, Kuwait, Iraq, Yemen, Algeria, Libya, Tunisia, and Morocco. It was trained on the **CAPHI** phonological lexicon.
 
 ## API
 

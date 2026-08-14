@@ -45,8 +45,9 @@ g2p/
 └── uv.lock
 ```
 ## Evaluation
+
 | Metric | Score |
 |---|---:|
-| **Word Accuracy** | 0.443 |
+| **Word Accuracy** | 44.30% |
 | **Edit Distance** | 1.3533 |
-| **PER (Phoneme Error Rate)** | 0.1635 |
+| **PER (Phoneme Error Rate)** | 16.35% |
